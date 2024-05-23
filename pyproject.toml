@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "makedeco-optiver"
+version = "0.1.0"
+description = ""
+authors = ["richwomanbtc <richwomanbtc@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+kaggle = "^1.6.12"
+ipykernel = "^6.29.4"
+numpy = "1.26.4"
+pandas = "2.2.2"
+polars = "0.20.21"
+Pillow = "9.5.0"
+matplotlib = "3.7.5"
+seaborn = "0.12.2"
+lightgbm = "4.2.0"
+xgboost = "2.0.3"
+catboost = "1.2.3"
+scikit-learn = "1.2.2"
+wandb = "0.16.6"
+torch = "2.1.2"
+torchvision = "0.16.2"
+torchaudio = "2.1.2"
+pytorch_lightning = "2.2.2"
+transformers = "4.39.3"
+timm = "0.9.16"
+datasets = "2.18.0"
+tqdm = "4.66.1"
+geopy = "2.4.1"
+accelerate = "0.29.3"
+# umap-learn = "0.5.6"
+# click = "8.1.7"
+# cudf = "23.08.00"
+hvplot = "^0.10.0"
+tensorflow = "^2.16.1"
+pydot = "^2.0.0"
+jupyterlab = "^4.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
